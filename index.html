@@ -1,1 +1,30 @@
-<h1>Hello World</h1>
+
+<link rel="stylesheet" href="style.css">
+<h1>The Shoppies</h1>
+<body>
+    <div>
+        <h3 id="header">Your Nominations</h3>
+        
+    </div>
+    
+    <div>
+        <table>
+            <tr id="nominations" class="nominations"></tr>
+            
+        </table>
+    </div>
+    
+    <div>
+        <input id="searchBar" type="search" onkeyup="updateSearch()" placeholder="Search..">
+    </div>
+    
+    <div style="align-content: center;">
+        <table id="resp" style="max-width:100%">
+            <tr id="row1" ></tr>
+            <tr id="row2"></tr>
+        </table>
+    </div>
+</body>
+
+
+<script src="./movies.js"></script>

@@ -1,0 +1,44 @@
+img {
+    opacity: 1.0;
+    max-width: 100%;
+  }
+  
+  img:hover {
+    opacity: 0.3;
+    filter:blur(1px)
+  }
+  
+div {
+    display:flex;
+    justify-self: center;
+    justify-content: center;
+}
+
+input {
+    width:25%;
+    height:50px;
+    font-size: medium;
+}
+
+h1 {
+    text-align: center;
+}
+
+.nominations {
+    font-size: small;
+}
+
+th {
+    border: 1px solid black;
+    padding:5px;
+    background-color: rgb(200, 200, 200);
+  }
+
+  td {
+    padding:5px;
+    max-width: 20%;
+  }
+
+  body {
+      background-color: rgb(100, 100, 100);
+  }
