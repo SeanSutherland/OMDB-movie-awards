@@ -1,6 +1,6 @@
 const OMDB_API_KEY = "dfc32597"
-const OMDB_URL = "http://www.omdbapi.com/?apikey=" + OMDB_API_KEY + "&s="
-const OMDB_I_URL = "http://www.omdbapi.com/?apikey=" + OMDB_API_KEY + "&i="
+const OMDB_URL = "https://www.omdbapi.com/?apikey=" + OMDB_API_KEY + "&s="
+const OMDB_I_URL = "https://www.omdbapi.com/?apikey=" + OMDB_API_KEY + "&i="
 
 function updateSearch() {
 
