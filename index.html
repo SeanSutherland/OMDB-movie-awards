@@ -1,29 +1,33 @@
 
 <link rel="stylesheet" href="style.css">
-<h1>The Shoppies</h1>
-<body>
+<title>The Shoppies</title>
+
+
+<div style="background-color: beige;">
+    <h1 class="jtext">The Shoppies</h1>
+    <p class="jtext">To use this service properly you must allow HTTP requests in your browser because this page is served over HTTPS but uses a XMLHttpRequest</p>
+</div>
+
+<body onLoad="readParameters()">
     <div>
-        <h3 id="header">Your Nominations</h3>
-        
-    </div>
-    
-    <div>
+        <h3 id="header" class="jtext">Your Nominations</h3>        
+        <a id=link class="jtext">Your custom link</a>
+
         <table>
             <tr id="nominations" class="nominations"></tr>
-            
         </table>
+
     </div>
-    
-    <div>
+       
+    <div style="background-color: beige;">
         <input id="searchBar" type="search" onkeyup="updateSearch()" placeholder="Search..">
-    </div>
-    
-    <div style="align-content: center;">
+        
         <table id="resp" style="max-width:100%">
-            <tr id="row1" ></tr>
+            <tr id="row1"></tr>
             <tr id="row2"></tr>
         </table>
     </div>
+
 </body>
 
 

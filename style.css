@@ -3,25 +3,30 @@ img {
     max-width: 100%;
   }
   
-  img:hover {
-    opacity: 0.3;
-    filter:blur(1px)
-  }
+img:hover {
+  opacity: 0.3;
+  filter:blur(1px)
+}
+
+
   
 div {
     display:flex;
-    justify-self: center;
+    flex-direction: column;
     justify-content: center;
+    align-items: center;
+    margin: 15px;
 }
 
 input {
-    width:25%;
-    height:50px;
-    font-size: medium;
+  width:25%;
+  height:50px;
+  font-size: medium;
+  margin: 10px;
 }
 
-h1 {
-    text-align: center;
+.jtext {
+  text-align:center;
 }
 
 .nominations {
@@ -34,11 +39,12 @@ th {
     background-color: rgb(200, 200, 200);
   }
 
-  td {
-    padding:5px;
-    max-width: 20%;
-  }
+td {
+  padding:5px;
+  max-width: 20%;
+  max-width: 150px;
+}
 
-  body {
-      background-color: rgb(100, 100, 100);
-  }
+body {
+    background-color: rgb(100, 100, 100);
+}
